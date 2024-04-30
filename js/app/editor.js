@@ -13,11 +13,11 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 */
-import { basicSetup } from 'codemirror';
-import { EditorView, keymap } from '@codemirror/view';
 import { indentWithTab } from '@codemirror/commands';
 import { markdown } from '@codemirror/lang-markdown';
 import { oneDark } from '@codemirror/theme-one-dark';
+import { EditorView, keymap } from '@codemirror/view';
+import { basicSetup } from 'codemirror';
 
 export class Editor {
   constructor(parent) {
