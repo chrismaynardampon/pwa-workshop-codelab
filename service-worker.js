@@ -14,7 +14,7 @@ Copyright 2021 Google LLC
  limitations under the License.
  */
 
- import { openDB } from 'idb';
+import { openDB } from 'idb';
 import { marked } from 'marked';
 import { CacheableResponsePlugin } from 'workbox-cacheable-response';
 import { ExpirationPlugin } from 'workbox-expiration';
