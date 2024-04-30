@@ -1,29 +1,167 @@
 <!DOCTYPE html>
-<!-- 
- Copyright 2021 Google LLC
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.9.0.min.css" />
+    <script src="https://kit.fontawesome.com/ae50866481.js" crossorigin="anonymous"></script>
+    <style>
+        .p-navigation__items {
+            position: relative;
+            right: 10px;
+        }
 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
+        @media only screen and (max-width: 768px) {
+            .p-navigation__items {
+                right: auto;
+            }
+        }
 
-      http://www.apache.org/licenses/LICENSE-2.0
-
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
- -->
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PWA Edit | Markdown Preview</title>
-    <link rel="stylesheet" href="/css/preview.css" />
-    <script type="module" src="/js/preview.js"></script>
-  </head>
-  <body>
-    <main class="preview"></main>
-  </body>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        i {
+            font-size: 50px;
+            margin: 10px;
+        }
+    </style>
+    <title>Chris Maynard Ampon</title>
+</head>
+<body class="is-paper">
+    <div class="l-site">
+    <header id="navigation" class="p-navigation is-dark" style="position: sticky; top: 0;">
+        <div class="p-navigation__row--full-width">
+            <nav class="p-navigation__nav u-align--right" aria-label="Example of full-width main">
+                <ul class="p-navigation__items" style="position: relative; right: 900px;">
+                    <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#">Hearteu</a>
+                    </li>
+                </ul>
+                <ul class="p-navigation__items">
+                    <li class="p-navigation__item is-selected">
+                        <a class="p-navigation__link" href="#">About</a>
+                    </li>
+                    <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#education">Education</a>
+                    </li>
+                    <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- about -->
+    <div class="p-strip u-vertically-center">
+    <section class="p-strip u-image-position">
+            <div class="row">
+                <div class="col-5 col-md-4 u-align--right p-image">
+                    <img src="/images/profile.png" alt="profile" class="p-image--bordered" style="width:300px; height: 300px; border-radius: 50%;">
+                </div>
+                <div class="col-7 col-md-8 row u-vertically-center">
+                    <h1 class="p-heading--1 u-no-margin is-accent" >CHRIS MAYNARD AMPON</h1>
+                    <h5 class="p-heading--5 u-text--muted">BSIT 2A</h5>
+                    <p class="p-text">
+                        Hello! I'm Chris Maynard Ampon, a second-year student pursuing a Bachelor's degree in Information Technology.
+                        Despite being early in my academic journey, I'm eager to grow, collaborate, and contribute meaningfully to the tech industry.
+                        My goal is to leverage my education and experiences to make a positive impact in the field of technology.
+                        Let's connect and explore how we can create something remarkable together.
+                    </p>
+                    <div class="col-12">
+                        <a class="p-icon--github" href="https://github.com/chrismaynardampon" target="_blank">GitHub</a>
+                        <a class="p-icon--twitter" href="https://twitter.com/Hearteu02" target="_blank">Twitter</a>
+                        <a class="p-icon--facebook" href="https://www.facebook.com/Hearteu02" target="_blank">Facebook</a>
+                        <a class="p-icon--linkedin" href="https://www.linkedin.com/in/chris-maynard-ampon-0554aa256/" target="_blank">LinkedIn</a>
+                        <a class="p-icon--instagram" href="https://www.instagram.com/hearteu02/" target="_blank">Instagram</a>
+                        <a class="p-icon--youtube" href="https://www.youtube.com/@Hearteu02" target="_blank">Youtube</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    </div>
+   <!-- education -->
+    <section class="p-strip is-dark u-equal-height" id="education">
+        <div class="row">
+            <h2 class="p-heading--2"> Education</h2>
+            <div class="p-card col-6 col-md-6 col-lg-3">
+                <h3 class="p-heading--3">Bachelor of Science in Information Technology</h3>
+                <p class="p-text--small-caps">Ateneo de Davao University</p>
+                <p class=" p-text--small">2022 - Present</p>
+            </div>
+            <div class="p-card col-6 col-md-6 col-lg-3">
+                <h3 class="p-heading--3">Science Technology Engineering &amp; Mathematics</h3>
+                <p class="p-text--small-caps">Lyceum of the Philippines University-Cavite</p>
+                <p class="p-text--small u-align-text--small-to-default">2019 - 2021</p>
+            </div>
+            <div class="p-card col-6 col-md-6 col-lg-3">
+                <h3 class="p-heading--3">Junior High School</h3>
+                <p class="p-text--small-caps">Tagum City National HighSchool</p>
+                <p class="p-text--small">2015 - 2019</p>
+            </div>
+            <div class="p-card col-6 col-md-6 col-lg-3">
+                <h3 class="p-heading--3">Grade School</h3>
+                <p class="p-text--small-caps">Banaybanay Central Elementary School</p>
+                <p class="p-text--small">2009 - 2015</p>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section class="p-strip" id="projects">
+        <div class="row">
+            <h2 class="p-heading--2">Projects</h2>
+            <div class="p-card col-6 col-md-6 col-lg-3 u-no-padding">
+                <div class="p-card__content">
+                    <iframe class="p-card__image" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaG67jhgztaodHq2gZQHdXv%2FSir-Joseph-(HCI)-Exam-2%3Fpage-id%3D314%253A2743%26type%3Ddesign%26node-id%3D314-2810%26viewport%3D1035%252C-1627%252C0.12%26t%3DBicttaUQqC3lV3Nr-1%26scaling%3Dcontain%26starting-point-node-id%3D314%253A2810%26mode%3Ddesign" allowfullscreen></iframe>
+                    <div class="p-card__inner">
+                        <h3 class="p-heading--3">ECOFI Inc.</h3>
+                        <p class="p-text">One of the UI designers of the Evangelical Christian Outreach Fellowship International Incorporated (ECOFI Inc.) website, which is a Religious Institution who's passion is for God and has compassion for the lost.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-card col-6 col-md-6 col-lg-3 u-no-padding">
+                <div class="p-card__content">
+                    <iframe class="p-card__image" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FktO1Bu8ZKfMo0TITbK8vZb%2FApp-Dev%3Fpage-id%3D2%253A76%26type%3Ddesign%26node-id%3D66-674%26viewport%3D1553%252C-1477%252C0.64%26t%3DUo51HZEN79R1Sg0O-1%26scaling%3Dscale-down%26starting-point-node-id%3D66%253A674%26mode%3Ddesign" allowfullscreen></iframe>
+                    <div class="p-card__inner">
+                        <h3 class="p-heading--3">Campus Lost & Found App</h3>
+                        <p class="p-text">The Campus Lost & Found App is a comprehensive solution designed to streamline the process of retrieving lost items within educational institutions. With user-friendly interfaces accessible via mobile devices, students, faculty, and staff can easily report lost items, providing details such as description, location, and time of loss.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section class="p-strip is-dark" id="skills">
+        <div class="row">
+            <h2 class="p-heading--2">Skills</h2>
+            <!-- <div class="col-3"></div> -->
+            <div class="p-card col-12 col-md-6 col-lg-3 u-no-padding">
+                <div class="p-card__inner u-align--center">
+                    <h3 class="p-heading--3" style="max-width: 100%;">PROGRAMMING LANGUAGES &amp; TOOLS</h3>
+                    
+                    <div class="col-12">
+                        <i class="fab fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-java"></i>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-3"></div> -->
+        </div>
+    </section>
+    <footer class="l-footer--sticky p-strip is-paper" >
+        <nav class="row" aria-label="Footer">
+          <div class="has-cookie u-align--right">
+            <span>&copy; 2024 Chris Maynard Ampon. All rights reserved.</span>
+            <span class="u-off-screen"><a href="#">Go to the top of the page</a></span>
+          </div>
+        </nav>
+      </footer>
+    </div>
+</body>
 </html>
